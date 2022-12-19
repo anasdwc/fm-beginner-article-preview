@@ -76,8 +76,11 @@ main .content--footer--share button {
   background-color: hsl(210deg, 46%, 95%);
   z-index: 2;
 }
+main .content--footer--share .flex {
+  display: flex !important;
+}
 main .content--footer--share-active {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 1rem;
   background-color: hsl(217deg, 19%, 35%);

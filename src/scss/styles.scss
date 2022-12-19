@@ -96,13 +96,16 @@ main {
           z-index: 2;
         }
 
+        .flex {
+          display: flex !important;
+        }
+
         &-active {
-          display: flex;
+          display: none;
           align-items: center;
           gap: 1rem;
           background-color: $very-dark-grayish-blue;
           border-radius: 0 0 1rem 1rem;
-          // display: none;
 
           position: absolute;
           top: 0;
